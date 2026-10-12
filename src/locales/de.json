@@ -1,1 +1,500 @@
-{}
+{
+  "site": {
+    "name": "Vaultbreakers Wiki",
+    "shortName": "Vaultbreakers",
+    "tagline": "Builds, Artefakte, Klassen & Guides",
+    "description": "Komplettes Vaultbreakers Wiki mit Builds, Artefakten, Klassen, Gameplay-Guides, PvE- und PvPvE-Strategien, Updates und allem, was Spieler brauchen.",
+    "legalNotice": "Inoffizielles Fan-Wiki. Von Spielern für Spieler gemacht."
+  },
+  "nav": {
+    "home": "Start",
+    "menu": "Menü",
+    "toggleTheme": "Theme umschalten",
+    "guide": "Guide",
+    "characters": "Charaktere",
+    "mechanics": "Mechaniken",
+    "items": "Gegenstände",
+    "release": "Release",
+    "updates": "Updates",
+    "community": "Community"
+  },
+  "home": {
+    "meta": {
+      "title": "Vaultbreakers Wiki - Builds, Artefakte & Guides",
+      "description": "Komplettes Vaultbreakers Wiki mit Builds, Artefakten, Klassen, Gameplay-Guides, PvE- und PvPvE-Strategien, Updates und allem, was Spieler brauchen."
+    },
+    "hero": {
+      "eyebrow": "Fantasy-Extraction-RPG-Abenteuer",
+      "title": "Vaultbreakers Wiki",
+      "description": "Vaultbreakers ist ein Top-down-Extraction-RPG, in dem Spieler eine dynamische Fantasy-Welt erkunden, mächtige Artefakte sammeln, in PvE- oder PvPvE-Missionen gegen Feinde kämpfen und sich durch strategischen Kampf und Loot-Progression ihren eigenen Weg bauen.",
+      "stats": [
+        "35K+ Playtest-Spieler",
+        "PvE- & PvPvE-Spielmodi",
+        "Erwartete Veröffentlichung 2027",
+        "Wöchentliche Entwicklungs-Updates"
+      ],
+      "primaryCta": "Einsteiger-Guide",
+      "secondaryCta": "Klassen-Tier-Liste",
+      "tertiaryCta": "Aktive Codes",
+      "videoLabel": "Offizieller Gameplay-Trailer"
+    },
+    "updates": {
+      "title": "Neueste Updates",
+      "browse": "Alle Guides durchsuchen",
+      "viewAll": "Alle ansehen"
+    },
+    "start": {
+      "eyebrow": "Hier starten",
+      "title": "Deine Vaultbreakers-Reise",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Einsteiger-Guide",
+          "description": "Meistere den Core-Loop: Stelle ein Loadout zusammen, dessen Verlust du verkraftest, infiltriere den Vault und bring deine Beute lebend raus."
+        },
+        {
+          "number": "2",
+          "title": "Beste Klasse",
+          "description": "Vergleiche Frontline-, Fernkampf-, Support- und Flanker-Rollen, um den Breaker zu finden, der zu dir und deinem Squad passt."
+        },
+        {
+          "number": "3",
+          "title": "Ausrüstung farmen",
+          "description": "Farm rohe Edelsteine, gehärtete Edelsteine und wertvolle Beute, ohne dein Kit am Extraction-Point zu verlieren."
+        },
+        {
+          "number": "4",
+          "title": "Kampf-Grundlagen",
+          "description": "Lies Gegnermuster, brich Schilde und Panzerung und gewinne die Kämpfe, die deine Extraction schützen."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Beliebte Seiten",
+      "title": "Gerade beliebt",
+      "quickLinks": [
+        "Einsteiger-Guide",
+        "Beste Klasse",
+        "Builds-Tier-Liste",
+        "Extraction-Guide"
+      ],
+      "cards": [
+        {
+          "badge": "Einsteiger",
+          "title": "Einsteiger-Guide",
+          "description": "Core-Loop, Squad-Rollen und die Gewohnheiten, die neue Teams vor dem Wipe in ihren ersten Runs bewahren.",
+          "href": "/guide/vaultbreakers-beginner-guide"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Beste Klasse",
+          "description": "Wie du den Breaker wählst, der zu deinem Spielstil, deiner Squad-Größe und dem aktuellen Meta passt.",
+          "href": "/characters/vaultbreakers-best-class"
+        },
+        {
+          "badge": "Guide",
+          "title": "Builds-Guide",
+          "description": "Build-Archetypen, Stat-Prioritäten und Team-Synergie, die Runs über die erste echte Prüfung hinaustragen.",
+          "href": "/guide/vaultbreakers-builds"
+        },
+        {
+          "badge": "Beliebt",
+          "title": "Extraction-Guide",
+          "description": "Der Risk-and-Reward-Loop, Loadout-Entscheidungen, Beutepriorität und Exit-Timing, die deine Beute sichern.",
+          "href": "/mechanics/vaultbreakers-extraction"
+        },
+        {
+          "badge": "Neu",
+          "title": "Gehärtete Edelsteine",
+          "description": "Wie du die Edelsteine farmst, härtest und einsetzt, die einen fertigen Vaultbreakers-Build ausmachen.",
+          "href": "/items/vaultbreakers-hardened-gems"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "PvPvE-Modus",
+          "description": "Umkämpfte Runs, bei denen rivalisierende Squads deine Beute direkt am Exit an sich reißen können.",
+          "href": "/mechanics/vaultbreakers-pvpve"
+        },
+        {
+          "badge": "Aktualisiert",
+          "title": "Patch Notes",
+          "description": "Balance-Änderungen und Fixes, die das Meta zwischen den Vaultbreakers-Playtests verändern.",
+          "href": "/updates/vaultbreakers-patch-notes"
+        },
+        {
+          "badge": "Neu",
+          "title": "Serverstatus",
+          "description": "Statusmeldungen, wenn die Vaultbreakers-Playtest-Server online gehen oder ausfallen.",
+          "href": "/updates/vaultbreakers-server-status"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Was ist Vaultbreakers?",
+      "paragraphs": [
+        "Vaultbreakers ist ein Koop-Extraction-RPG von BetaDwarf, in dem Squads in eine dynamische Fantasy-Welt abspringen, sich durch PvE- und PvPvE-Vaults kämpfen und darum rennen, mit Artefakten, Edelsteinen und Ausrüstung zu extrahieren. Jeder Run ist eine Risk-and-Reward-Entscheidung: Je länger du bleibst, desto mehr kannst du heraustragen - und desto wahrscheinlicher nimmt es dir ein anderer Squad weg.",
+        "Der Fortschritt entsteht zwischen den Runs. Du wählst einen Breaker, baust um eine Rolle herum, setzt gehärtete Edelsteine ein und verbesserst dein Loadout aus dem Stash, den du tatsächlich sichern konntest. Unser Wiki deckt Klassen, Builds, Extraction-Taktiken, Ausrüstung und Updates ab, damit du den Run planen kannst, bevor du einsteigst."
+      ],
+      "stats": [
+        {
+          "label": "Entwickler",
+          "value": "BetaDwarf"
+        },
+        {
+          "label": "Plattform",
+          "value": "PC (Steam)"
+        },
+        {
+          "label": "Genre",
+          "value": "Extraction-RPG"
+        },
+        {
+          "label": "Modi",
+          "value": "PvE & PvPvE"
+        },
+        {
+          "label": "Squad",
+          "value": "Bis zu 4 Spieler"
+        },
+        {
+          "label": "Status",
+          "value": "Playtest"
+        }
+      ],
+      "cta": "Alle Guides entdecken"
+    },
+    "explore": {
+      "title": "Vaultbreakers Wiki entdecken",
+      "description": "Jedes Vaultbreakers-System an einem Ort, von deiner ersten Extraction bis zu Endgame-Builds, Ausrüstung und Updates.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Vaultbreakers Einsteiger-Guide",
+          "description": "Dieses Modul bietet Einsteiger-Hilfe zu den Kern-Gameplay-Systemen, Extraction-Mechaniken, Missionsvorbereitung, Kampf-Grundlagen und frühen Progressionsstrategien. Es hilft Anfängern zu verstehen, wie sie Expeditionen überleben und ihren Vaultbreaker effektiv aufbauen.",
+          "href": "/guide/vaultbreakers-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Stelle ein Loadout zusammen, dessen Verlust du verkraftest, bevor du den Vault betrittst."
+            },
+            {
+              "label": "2",
+              "detail": "Steig leise ein und lerne das Layout, statt ins offene Gelände zu sprinten."
+            },
+            {
+              "label": "3",
+              "detail": "Sammle Ressourcen und markiere Bedrohungen, während dein Squad zusammenbleibt."
+            },
+            {
+              "label": "4",
+              "detail": "Kämpfe als Einheit oder löst euch gemeinsam, und jage nie allein einem Kill hinterher."
+            },
+            {
+              "label": "5",
+              "detail": "Wäge den Beutewert gegen das Risiko ab, bevor du dich auf einen weiteren Raum einlässt."
+            },
+            {
+              "label": "6",
+              "detail": "Bewegt euch als Gruppe zur Extraction und sichert den Rücken auf dem Weg nach draußen."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Vaultbreakers Klassen-Guide",
+          "description": "Dieses Modul stellt die spielbaren Vaultbreakers, ihre Fähigkeiten, Rollen und empfohlenen Spielstile vor. Es hilft Spielern, Charaktere zu vergleichen und die beste Option für Solo- oder Koop-Abenteuer zu wählen.",
+          "href": "/characters/vaultbreakers-classes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Frontline",
+              "detail": "Hält Raum, absorbiert Druck und eröffnet Kämpfe für den Squad."
+            },
+            {
+              "label": "Burst",
+              "detail": "Löscht prioritäre Ziele schnell aus, bestraft aber schlampige Positionierung."
+            },
+            {
+              "label": "Sustained",
+              "detail": "Hält in langen Kämpfen konstanten Druck auf Gruppen und Ziele."
+            },
+            {
+              "label": "Support",
+              "detail": "Heilt, schildert und belebt wieder, um die Leistung aller anderen zu vervielfachen."
+            },
+            {
+              "label": "Aufklärung",
+              "detail": "Kundschaftet, schwächt Gegner und eröffnet Kämpfe zu deinen Bedingungen, bevor es zum Kontakt kommt."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Vaultbreakers Waffen-Guide",
+          "description": "Dieses Modul behandelt Waffen, Ausrüstungswahl, Kampf-Builds und nützliche Gegenstandskombinationen. Spieler erfahren, wie sich verschiedene Gear-Setups auf Erkundung und PvE- oder PvPvE-Begegnungen auswirken.",
+          "href": "/items/vaultbreakers-gear",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Primärwaffe",
+              "detail": "Deine Hauptschadensquelle, abgestimmt auf Klassenrolle und Reichweite."
+            },
+            {
+              "label": "Sekundärwaffe",
+              "detail": "Eine Backup-Waffe für Nachladezeiten und Notfälle auf kurze Distanz."
+            },
+            {
+              "label": "Rüstung",
+              "detail": "Schadensminderung und Leben, die entscheiden, wer einen schlechten Pull überlebt."
+            },
+            {
+              "label": "Runen",
+              "detail": "Utility-Effekte wie die Rune des Brechens, die Schilde und Panzerung entfernen."
+            },
+            {
+              "label": "Edelsteine",
+              "detail": "Rohe oder gehärtete Edelsteine, die einen Build an seine Stat-Obergrenze bringen."
+            },
+            {
+              "label": "Utility",
+              "detail": "Verbrauchsgüter und medizinische Vorräte, die den Squad im Run halten."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Vaultbreakers Builds-Tier-Liste",
+          "description": "Dieses Modul bewertet beliebte Charakter-Builds, Perk-Kombinationen und Playstyle-Setups nach ihrer Effektivität in verschiedenen Situationen. Es kann aktualisiert werden, sobald mehr Testergebnisse und Balance-Änderungen verfügbar sind.",
+          "href": "/guide/vaultbreakers-builds",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Frontline / Bruiser - saugt Druck auf und lässt den Rest des Squads spielen."
+            },
+            {
+              "label": "A",
+              "detail": "Sustained Damage - verlässlicher Schaden, der mit langen Kämpfen skaliert."
+            },
+            {
+              "label": "B",
+              "detail": "Support / Utility - gewinnt koordinierte Runs, braucht aber Mitspieler, die es nutzen."
+            },
+            {
+              "label": "C",
+              "detail": "Burst / Assassine - höchste Obergrenze, aber gnadenlos, wenn eine Rotation danebengeht."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Vaultbreakers Haven-Guide",
+          "description": "Dieses Modul erklärt das Haven-System, Upgrades, permanente Boni, Crafting und die Vorbereitung vor gefährlichen Missionen. Es hilft Spielern, die langfristige Progression außerhalb von Expeditionen zu verstehen.",
+          "href": "/items/vaultbreakers-hardened-gems",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Stash",
+              "detail": "Sichere jeden erfolgreichen Run: Ausrüstung und Materialien zählen erst, wenn sie den Vault verlassen haben."
+            },
+            {
+              "label": "Edelsteine",
+              "detail": "Härte rohe Edelsteine an der Station, um High-End-Rolls in deinem Build festzuschreiben."
+            },
+            {
+              "label": "Kits",
+              "detail": "Halte günstige, mittlere und Premium-Loadouts bereit, damit du nie Ausrüstung spielst, deren Verlust du fürchtest."
+            },
+            {
+              "label": "Upgrades",
+              "detail": "Investiere deine ersten Ressourcen in Überlebensfähigkeit statt in rohen Schaden."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Vaultbreakers PvE-PvPvE-Guide",
+          "description": "Dieses Modul erklärt die Unterschiede zwischen PvE- und PvPvE-Modi, Risikostufen, Belohnungen und Teamwork-Strategien. Es hilft Spielern zu entscheiden, welcher Modus zu ihrem bevorzugten Erlebnis passt.",
+          "href": "/mechanics/vaultbreakers-pvpve",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "PvE",
+              "detail": "Vaults mit geringerem Risiko, in denen die Gegner-KI die Hauptbedrohung ist und die Beute beständig fließt."
+            },
+            {
+              "label": "PvPvE",
+              "detail": "Umkämpfte Runs, bei denen rivalisierende Squads deine Beute direkt am Exit nehmen können."
+            },
+            {
+              "label": "Risiko",
+              "detail": "Höhere Gefahr steigert den Wert dessen, was du heraustragen kannst."
+            },
+            {
+              "label": "Teamarbeit",
+              "detail": "Ansagen und ein gemeinsamer Exit-Plan zählen mehr als rohe Feuerkraft."
+            },
+            {
+              "label": "Modi",
+              "detail": "Wähle den Modus, der zu dem Risiko passt, das dein Squad eingehen will."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Vaultbreakers Updates und News",
+          "description": "Dieses Modul sammelt offizielle Ankündigungen, Playtest-Informationen, Demos, Patches und Entwicklungs-Updates. Es hält Spieler über neue Inhalte und kommende Features auf dem Laufenden.",
+          "href": "/updates/vaultbreakers-news",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Balance-Änderungen und Fixes, die das Meta zwischen den Playtests verändern."
+            },
+            {
+              "label": "Playtests",
+              "detail": "Einladungs- und Anmeldezeiträume für den nächsten spielbaren Build."
+            },
+            {
+              "label": "News",
+              "detail": "Offizielle Ankündigungen, Teaser und Entwicklungs-Updates."
+            },
+            {
+              "label": "Server",
+              "detail": "Statusmeldungen, wenn die Playtest-Server online gehen oder ausfallen."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Vaultbreakers FAQ",
+          "description": "Dieses Modul beantwortet häufige Spielerfragen zu Release-Informationen, Plattformen, Multiplayer-Funktionen, Demos und Spielsystemen. Es liefert schnelle Antworten für Nutzer, die gezielt suchen.",
+          "href": "/release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Release",
+              "detail": "Was über das Launch-Fenster bestätigt ist und wie du es überprüfst."
+            },
+            {
+              "label": "Plattformen",
+              "detail": "Wo das Spiel läuft, dazu Cross-Play- und Progressionsdetails."
+            },
+            {
+              "label": "Koop",
+              "detail": "Squad-Größen, Rollen und wie sich Koop-Runs vom Solo-Spiel unterscheiden."
+            },
+            {
+              "label": "Zugang",
+              "detail": "Wie Vaultbreakers-Playtest-Einladungen und Anmeldungen derzeit funktionieren."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "description": "Kurze Antworten auf die häufigsten Fragen zu Vaultbreakers.",
+      "items": [
+        {
+          "question": "Was ist Vaultbreakers?",
+          "answer": "Vaultbreakers ist ein Koop-Extraction-RPG von BetaDwarf, in dem Squads in eine Fantasy-Welt abspringen, sich durch PvE- und PvPvE-Vaults kämpfen und darum rennen, mit Artefakten, Edelsteinen und Ausrüstung zu extrahieren."
+        },
+        {
+          "question": "Wann erscheint Vaultbreakers?",
+          "answer": "Ein offizielles Vaultbreakers-Release-Datum wurde noch nicht bestätigt. Das Spiel lief regelmäßig in Playtests, daher sind die offizielle Steam-Seite und die Entwicklerkanäle die zuverlässigsten Orte, um ein Release-Fenster zu verfolgen."
+        },
+        {
+          "question": "Welche Klasse sollten Anfänger in Vaultbreakers wählen?",
+          "answer": "Beginne mit einem Frontline- oder Sustained-Damage-Build, den verzeihendsten Einstiegspunkten in Vaultbreakers. Wähle die Klasse, deren Schwäche du akzeptieren kannst, statt eine Tier-Liste zu kopieren."
+        },
+        {
+          "question": "Kann man Vaultbreakers solo spielen?",
+          "answer": "Ja. Vaultbreakers unterstützt Solo- und Squad-Runs, doch Solo-Spiel belohnt andere Gewohnheiten: Mach langsamer, meide unnötige Kämpfe und priorisiere die Extraction über zusätzliche Beute."
+        },
+        {
+          "question": "Wie behält man Beute in Vaultbreakers?",
+          "answer": "In Vaultbreakers zählt alles erst, wenn es in deinem Stash ist. Behandle den Exit von der ersten Minute an als Ziel, geh früher raus, als es sich richtig anfühlt, und meide Kämpfe in der Nähe von Extraction-Points."
+        },
+        {
+          "question": "Wo finde ich Vaultbreakers-Updates?",
+          "answer": "Vaultbreakers-Patch-Notes, Playtest-Fenster und Ankündigungen werden auf der offiziellen Steam-Seite und in Community-Kanälen verfolgt, und unser Updates-Hub sammelt sie an einem Ort."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Bereit, Vaultbreakers zu meistern?",
+      "description": "Von deinem ersten Artefakt-Run bis zu Endgame-Extraction-Missionen deckt unser Community-Wiki dich mit kostenlosen, aktuellen Guides ab.",
+      "primary": "Einsteiger-Guide lesen",
+      "secondary": "Auf Steam spielen"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Vaultbreakers Guides & Tipps",
+    "overviewDescription": "Vaultbreakers-Guides, Tipps und Builds für neue und zurückkehrende Spieler, mit Core-Loop, Squad-Rollen und einsteigerfreundlichen Strategien."
+  },
+  "characters": {
+    "overviewTitle": "Vaultbreakers Charaktere & Klassen",
+    "overviewDescription": "Vergleiche jeden Vaultbreakers-Charakter und jede Klasse, von den stärksten Picks für Solo-Runs bis zu den Rollen, die in einem eingespielten Squad glänzen."
+  },
+  "mechanics": {
+    "overviewTitle": "Vaultbreakers Mechaniken & Spielmodi",
+    "overviewDescription": "Verstehe, wie Vaultbreakers funktioniert: Extraction-Runs, PvE- und PvPvE-Modi, Koop-Spiel und die Risk-and-Reward-Systeme hinter jedem Dive."
+  },
+  "items": {
+    "overviewTitle": "Vaultbreakers Gegenstände & Ausrüstung",
+    "overviewDescription": "Durchsuche Vaultbreakers-Gegenstände und Ausrüstung, darunter gehärtete Edelsteine, Schlüssel und die Rune des Brechens, die deine Loadouts und Builds verbessern."
+  },
+  "release": {
+    "overviewTitle": "Vaultbreakers Release- & Playtest-Termine",
+    "overviewDescription": "Verfolge jedes Vaultbreakers-Release-Datum, Early-Access-Fenster und jede Playtest-Ankündigung, dazu Plattform-Support und Beta-Details."
+  },
+  "updates": {
+    "overviewTitle": "Vaultbreakers Updates & News",
+    "overviewDescription": "Die neuesten Vaultbreakers-Patch-Notes, News, Serverstatus und nächsten Playtest-Termine an einem Ort."
+  },
+  "community": {
+    "overviewTitle": "Vaultbreakers Community",
+    "overviewDescription": "Finde die Vaultbreakers-Community auf Reddit und Discord, dazu Reviews und Steam-Chart-Daten, die zeigen, wie das Spiel wächst."
+  },
+  "shared": {
+    "wikiNavigation": "Wiki-Navigation",
+    "activeCodes": "Aktive Codes",
+    "startHere": "Hier starten",
+    "startHereDescription": "Neu bei Vaultbreakers? Lerne den Core-Loop, die Squad-Rollen und die Beuteregeln vor deinem ersten Run.",
+    "readBeginnerGuide": "Einsteiger-Guide lesen",
+    "updated": "Aktualisiert",
+    "viewAllCodes": "Alle Codes ansehen",
+    "playOnSteam": "Auf Steam spielen",
+    "inThisSection": "In diesem Abschnitt",
+    "tableOfContents": "Inhaltsverzeichnis",
+    "nextSteps": "Nächste Schritte",
+    "needHelp": "Brauchst du Hilfe?",
+    "relatedReading": "Weiterführende Lektüre",
+    "relatedGuides": "Verwandte Guides",
+    "readMore": "Mehr lesen",
+    "officialMedia": "Offizielle Medien",
+    "home": "Start",
+    "noGuidesAvailable": "Noch keine Guides verfügbar. Schau bald wieder vorbei!"
+  },
+  "footer": {
+    "aboutTitle": "Vaultbreakers Wiki",
+    "about": "Das Vaultbreakers Wiki ist ein unabhängiger, von Fans erstellter Guide-Hub mit Builds, Artefakten, Klassen, Extraction-Runs, Bossen und wichtigem Spielwissen für neue und erfahrene Spieler.",
+    "quickLinks": "Schnellzugriff",
+    "guides": "Guides",
+    "legal": "Rechtliches",
+    "copyright": "2026 Vaultbreakers Wiki. Nicht mit BetaDwarf oder Steam verbunden.",
+    "description": "Koop-Extraction-RPG für PC. PvE- und PvPvE-Runs, Artefakte, Builds und Klassen.",
+    "playGame": "Vaultbreakers auf Steam spielen",
+    "officialDiscord": "Offizieller Discord",
+    "officialYoutube": "Offizielles YouTube",
+    "officialWebsite": "Offizielle Website",
+    "beginnerGuide": "Einsteiger-Guide",
+    "classGuides": "Klassen-Guides",
+    "itemGuides": "Gegenstands-Guides",
+    "buildGuide": "Build-Guide",
+    "privacyPolicy": "Datenschutzerklärung",
+    "termsOfService": "Nutzungsbedingungen"
+  }
+}
