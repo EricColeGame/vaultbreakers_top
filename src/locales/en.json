@@ -43,22 +43,22 @@
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Master the core loop: prep a loadout you can afford to lose, infiltrate the vault, and get your haul out alive."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Best Class",
+          "description": "Compare frontline, ranged, support, and flanker roles to find the breaker that fits how you and your squad play."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "Gear Farming",
+          "description": "Farm raw gems, hardened gems, and high-value loot without losing your kit at the extraction point."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Vaultbreakers."
+          "title": "Combat Basics",
+          "description": "Read enemy patterns, break shields and armor, and win the fights that protect your extraction."
         }
       ]
     },
@@ -66,73 +66,67 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "Best Class",
+        "Builds Tier List",
+        "Extraction Guide"
       ],
       "cards": [
         {
           "badge": "Beginner",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Core loop, squad roles, and the habits that keep new teams from wiping on their first runs.",
+          "href": "/guide/vaultbreakers-beginner-guide"
+        },
+        {
+          "badge": "Popular",
+          "title": "Best Class",
+          "description": "How to pick the breaker that fits your playstyle, your squad size, and the current meta.",
+          "href": "/characters/vaultbreakers-best-class"
+        },
+        {
+          "badge": "Guide",
+          "title": "Builds Guide",
+          "description": "Build archetypes, stat priorities, and team synergy that carry runs past the first real check.",
+          "href": "/guide/vaultbreakers-builds"
+        },
+        {
+          "badge": "Popular",
+          "title": "Extraction Guide",
+          "description": "The risk-and-reward loop, loadout calls, loot priority, and exit timing that banks your haul.",
+          "href": "/mechanics/vaultbreakers-extraction"
+        },
+        {
+          "badge": "New",
+          "title": "Hardened Gems",
+          "description": "How to farm, harden, and socket the gems that define a finished Vaultbreakers build.",
+          "href": "/items/vaultbreakers-hardened-gems"
         },
         {
           "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "title": "PvPvE Mode",
+          "description": "Contested runs where rival squads can take your haul right at the exit.",
+          "href": "/mechanics/vaultbreakers-pvpve"
         },
         {
           "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
-        },
-        {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "title": "Patch Notes",
+          "description": "Balance changes and fixes that shift the meta between Vaultbreakers playtests.",
+          "href": "/updates/vaultbreakers-patch-notes"
         },
         {
           "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
-        },
-        {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
-        },
-        {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
-        },
-        {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
-        },
-        {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "title": "Server Status",
+          "description": "Status notes for when Vaultbreakers playtest servers go live or go down.",
+          "href": "/updates/vaultbreakers-server-status"
         }
       ]
     },
     "aboutGame": {
       "title": "What is Vaultbreakers?",
       "paragraphs": [
-        "Vaultbreakers is a stylized fighting RPG on Steam inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Vaultbreakers is a co-op extraction RPG from BetaDwarf where squads drop into a dynamic fantasy world, fight through PvE and PvPvE vaults, and race to extract with artifacts, gems, and gear. Every run is a risk-and-reward decision: the longer you stay, the more you can carry out, and the more likely another squad takes it from you.",
+        "Progression lives between runs. You pick a breaker, build around a role, socket hardened gems, and upgrade your loadout from the stash you actually manage to bank. Our wiki covers classes, builds, extraction tactics, gear, and updates so you can plan the run before you load in."
       ],
       "stats": [
         {
@@ -141,162 +135,252 @@
         },
         {
           "label": "Platform",
-          "value": "Steam"
+          "value": "PC (Steam)"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Extraction RPG"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Modes",
+          "value": "PvE & PvPvE"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Squad",
+          "value": "Up to 4 Players"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
-        },
-        {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Status",
+          "value": "Playtest"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
       "title": "Explore Vaultbreakers Wiki",
-      "description": "Master your seafood restaurant on Steam with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "description": "Every Vaultbreakers system in one place, from your first extraction to endgame builds, gear, and updates.",
       "modules": [
         {
           "order": 1,
-          "name": "Vaultbreakers Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/vaultbreakers-codes",
-          "displayType": "code-box",
+          "name": "Vaultbreakers Beginner Guide",
+          "description": "This module provides new player guidance covering core gameplay systems, extraction mechanics, mission preparation, combat basics, and early progression strategies. It helps beginners understand how to survive expeditions and build their Vaultbreaker effectively.",
+          "href": "/guide/vaultbreakers-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "1",
+              "detail": "Prep a loadout you can afford to lose before you ever enter the vault."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "2",
+              "detail": "Insert quietly and learn the layout instead of sprinting into open ground."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "3",
+              "detail": "Collect resources and mark threats while your squad stays together."
+            },
+            {
+              "label": "4",
+              "detail": "Fight as a unit or disengage together, and never chase a kill alone."
+            },
+            {
+              "label": "5",
+              "detail": "Weigh loot value against risk before you commit to one more room."
+            },
+            {
+              "label": "6",
+              "detail": "Move as a group to extraction and cover the rear on the way out."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/vaultbreakers-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Vaultbreakers Classes Guide",
+          "description": "This module introduces playable Vaultbreakers, their abilities, roles, and recommended playstyles. It can help players compare characters and choose the best option for solo or co-op adventures.",
+          "href": "/characters/vaultbreakers-classes",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "Frontline",
+              "detail": "Holds space, absorbs pressure, and starts fights for the squad."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "Burst",
+              "detail": "Deletes priority targets fast, but punishes sloppy positioning."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "Sustained",
+              "detail": "Keeps steady pressure on groups and objectives over long fights."
+            },
+            {
+              "label": "Support",
+              "detail": "Heals, shields, and revives to multiply everyone else's output."
+            },
+            {
+              "label": "Recon",
+              "detail": "Scouts, debuffs, and opens fights on your terms before contact."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/vaultbreakers-tier-list",
-          "displayType": "tier-grid",
+          "name": "Vaultbreakers Weapons Guide",
+          "description": "This module covers weapons, equipment choices, combat builds, and useful item combinations. Players can learn how different gear setups affect exploration and PvE or PvPvE encounters.",
+          "href": "/items/vaultbreakers-gear",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Primary",
+              "detail": "Your main damage source, matched to your class role and range."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Sidearm",
+              "detail": "A backup for reload windows and close-range emergencies."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Armor",
+              "detail": "Mitigation and health that decide who survives a bad pull."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Runes",
+              "detail": "Utility effects like the Rune of Breaking that strip shields and armor."
+            },
+            {
+              "label": "Gems",
+              "detail": "Raw or hardened gems that push a build toward its stat ceiling."
+            },
+            {
+              "label": "Utility",
+              "detail": "Consumables and medical supplies that keep the squad in the run."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/vaultbreakers-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Vaultbreakers Builds Tier List",
+          "description": "This module ranks popular character builds, perk combinations, and playstyle setups based on effectiveness in different situations. It can be updated as more testing information and balance changes become available.",
+          "href": "/guide/vaultbreakers-builds",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "S",
+              "detail": "Frontline / Bruiser - soaks pressure and lets the rest of the squad play."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "A",
+              "detail": "Sustained Damage - reliable output that scales with long fights."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "B",
+              "detail": "Support / Utility - wins coordinated runs but needs teammates who use it."
+            },
+            {
+              "label": "C",
+              "detail": "Burst / Assassin - highest ceiling, but punishing when a rotation misses."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/vaultbreakers-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Vaultbreakers Haven Guide",
+          "description": "This module explains the Haven system, upgrades, permanent bonuses, crafting, and preparation before entering dangerous missions. It helps players understand long-term progression outside expeditions.",
+          "href": "/items/vaultbreakers-hardened-gems",
+          "displayType": "code-cards",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "Stash",
+              "detail": "Bank every successful run: gear and materials only count once they are out of the vault."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "Gems",
+              "detail": "Harden raw gems at the station to lock high-end rolls into your build."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "Kits",
+              "detail": "Keep budget, mid-tier, and premium loadouts ready so you never run gear you fear losing."
+            },
+            {
+              "label": "Upgrades",
+              "detail": "Spend your first resources on survivability before raw damage."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/vaultbreakers-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Vaultbreakers PvE PvPvE Guide",
+          "description": "This module explains the differences between PvE and PvPvE modes, risk levels, rewards, and teamwork strategies. It helps players decide which mode fits their preferred experience.",
+          "href": "/mechanics/vaultbreakers-pvpve",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "PvE",
+              "detail": "Lower-risk vaults where enemy AI is the main threat and loot is steady."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "PvPvE",
+              "detail": "Contested runs where rival squads can take your haul at the exit."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Risk",
+              "detail": "Higher danger raises the value of what you can carry out."
+            },
+            {
+              "label": "Teamwork",
+              "detail": "Callouts and a shared exit plan matter more than raw firepower."
+            },
+            {
+              "label": "Modes",
+              "detail": "Pick the mode that matches how much risk your squad wants."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Vaultbreakers Updates and News",
+          "description": "This module collects official announcements, playtest information, demos, patches, and development updates. It keeps players informed about new content and upcoming features.",
+          "href": "/updates/vaultbreakers-news",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Patches",
+              "detail": "Balance changes and fixes that shift the meta between playtests."
+            },
+            {
+              "label": "Playtests",
+              "detail": "Invite and signup windows for the next hands-on build."
+            },
+            {
+              "label": "News",
+              "detail": "Official announcements, teasers, and development updates."
+            },
+            {
+              "label": "Server",
+              "detail": "Status notes for when playtest servers go live or go down."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Vaultbreakers FAQ",
+          "description": "This module answers common player questions about release information, platforms, multiplayer features, demos, and game systems. It provides quick answers for users searching specific information.",
+          "href": "/release",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Release",
+              "detail": "What is confirmed about the launch window and how to verify it."
+            },
+            {
+              "label": "Platforms",
+              "detail": "Where the game runs, plus cross-play and progression details."
+            },
+            {
+              "label": "Co-op",
+              "detail": "Squad sizes, roles, and how cooperative runs differ from solo."
+            },
+            {
+              "label": "Access",
+              "detail": "How Vaultbreakers playtest invites and signups currently work."
             }
           ]
         }
@@ -308,23 +392,27 @@
       "items": [
         {
           "question": "What is Vaultbreakers?",
-          "answer": "Vaultbreakers is a free-to-play fighting RPG on Steam based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "answer": "Vaultbreakers is a co-op extraction RPG from BetaDwarf where squads drop into a fantasy world, fight through PvE and PvPvE vaults, and race to extract with artifacts, gems, and gear."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "When does Vaultbreakers release?",
+          "answer": "No official Vaultbreakers launch date has been confirmed yet. The game has run periodic playtests, so the official Steam page and developer channels are the most reliable places to track a release window."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "Which class should beginners pick in Vaultbreakers?",
+          "answer": "Start with a frontline or sustained-damage build, which are the most forgiving entry points in Vaultbreakers. Pick the class whose weakness you can live with rather than copying a tier list."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Can you play Vaultbreakers solo?",
+          "answer": "Yes. Vaultbreakers supports solo and squad runs, but solo play rewards different habits: slow down, avoid unnecessary fights, and prioritize extraction over extra loot."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "How do you keep loot in Vaultbreakers?",
+          "answer": "In Vaultbreakers everything counts only once it is in your stash, so treat the exit as the objective from the first minute, leave earlier than feels comfortable, and avoid fights near extraction points."
+        },
+        {
+          "question": "Where can I find Vaultbreakers updates?",
+          "answer": "Vaultbreakers patch notes, playtest windows, and announcements are tracked on the official Steam page and community channels, and our updates hub collects them in one place."
         }
       ]
     },
