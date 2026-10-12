@@ -19,18 +19,18 @@ export interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "My Seafood Stand Wiki",
-  shortName: "My Seafood Stand",
-  logoText: "SS",
-  tagline: "Complete Guides, Codes, Recipes & Tier Lists",
-  description: "Your ultimate guide to My Seafood Stand on Roblox! Explore active working codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top",
-  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://myseafoodstand.top").hostname.replace(/^www\./, "")}`,
-  gameUrl: "https://www.roblox.com/games/my-seafood-stand",
-  heroVideoId: "M8DvcwoFRrk", // Roblox My Seafood Stand codes & gameplay video
+  name: "Vaultbreakers Wiki",
+  shortName: "Vaultbreakers",
+  logoText: "V",
+  tagline: "Builds, Artifacts, Classes & Guides",
+  description: "Complete Vaultbreakers Wiki covering builds, artifacts, classes, gameplay guides, PvE and PvPvE strategies, updates, and everything players need.",
+  url: process.env.NEXT_PUBLIC_SITE_URL || "https://vaultbreakers.top",
+  supportEmail: `support@${new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://vaultbreakers.top").hostname.replace(/^www\./, "")}`,
+  gameUrl: "https://store.steampowered.com/app/306910/Vaultbreakers/",
+  heroVideoId: "ZzP79NRjw1I", // Vaultbreakers Official Gameplay Trailer
   social: {
-    discord: "https://discord.gg/roblox",
-    youtube: "https://www.youtube.com/@roblox",
+    discord: "https://discord.com/servers/vaultbreakers-710659351576182915",
+    youtube: "https://www.youtube.com/@BetaDwarf",
   },
   locales: ["en", "es", "pt", "de", "fr"],
   defaultLocale: "en",
