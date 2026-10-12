@@ -9,7 +9,14 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
-    "toggleTheme": "Toggle theme"
+    "toggleTheme": "Toggle theme",
+    "guide": "Guide",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "items": "Items",
+    "release": "Release",
+    "updates": "Updates",
+    "community": "Community"
   },
   "home": {
     "meta": {
@@ -423,10 +430,40 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Vaultbreakers Guides & Tips",
+    "overviewDescription": "Vaultbreakers guides, tips, and builds for new and returning players, covering the core loop, squad roles, and beginner-friendly strategies."
+  },
+  "characters": {
+    "overviewTitle": "Vaultbreakers Characters & Classes",
+    "overviewDescription": "Compare every Vaultbreakers character and class, from the strongest picks for solo runs to the roles that shine in a coordinated squad."
+  },
+  "mechanics": {
+    "overviewTitle": "Vaultbreakers Mechanics & Game Modes",
+    "overviewDescription": "Understand how Vaultbreakers works: extraction runs, PvE and PvPvE modes, co-op play, and the risk-and-reward systems behind every dive."
+  },
+  "items": {
+    "overviewTitle": "Vaultbreakers Items & Gear",
+    "overviewDescription": "Browse Vaultbreakers items and gear, including hardened gems, keys, and the rune of breaking that upgrade your loadouts and builds."
+  },
+  "release": {
+    "overviewTitle": "Vaultbreakers Release & Playtest Dates",
+    "overviewDescription": "Track every Vaultbreakers release date, early access window, and playtest announcement, plus platform support and beta details."
+  },
+  "updates": {
+    "overviewTitle": "Vaultbreakers Updates & News",
+    "overviewDescription": "The latest Vaultbreakers patch notes, news, server status, and next playtest dates, gathered in one place."
+  },
+  "community": {
+    "overviewTitle": "Vaultbreakers Community",
+    "overviewDescription": "Find the Vaultbreakers community on Reddit and Discord, plus reviews and Steam chart data that show how the game is growing."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
+    "startHere": "Start Here",
+    "startHereDescription": "New to Vaultbreakers? Learn the core loop, squad roles, and loot rules before your first run.",
+    "readBeginnerGuide": "Read the Beginner Guide",
     "updated": "Updated",
     "viewAllCodes": "View all codes",
     "playOnSteam": "Play on Steam",
@@ -454,8 +491,8 @@
     "officialYoutube": "Official YouTube",
     "officialWebsite": "Official Website",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Class Guides",
-    "bossGuides": "Boss Guides",
+    "classGuides": "Class Guides",
+    "itemGuides": "Item Guides",
     "buildGuide": "Build Guide",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
