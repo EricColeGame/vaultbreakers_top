@@ -36,6 +36,6 @@ export const siteConfig: SiteConfig = {
     reddit: "https://www.reddit.com/r/Vaultbreakers/",
     website: "https://vaultbreakers.com/en",
   },
-  locales: ["en", "es", "pt", "de", "fr"],
+  locales: ["en", "de", "fr", "es"],
   defaultLocale: "en",
 };
